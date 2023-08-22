@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url('pacote-projeto/fontes/idroid.otf');
+}
+
+body{
+    margin: 0px;
+    background-color:#EBE5C5 ;
+}
+header {
+    
+    background-image:linear-gradient(to bottom, #2EA564, #063D1E);
+    color: white;
+    font-family:'Bebas Neue', Arial, Helvetica, sans-serif;
+    height: 260px;
+    text-align: center;
+    
+
+    
+}
+h1#titulo {
+    
+    margin:0% ;
+    padding: 40px 50px 23px 50px;
+    height: 40px;
+    font-size: 48px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+}
+p#unico {
+    margin-bottom: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    height:16px ;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+     
+}
+
+nav#menu {
+    margin: 53px 53px 53px 20px;
+    text-align: left;
+    
+}
+a { border-radius: 6px;
+    padding: 10px;
+    margin-right: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#83E1AD;
+}
+a:hover {
+   
+    color: #063D1E;
+    background-color: #2EA564;
+
+}
+#folha {
+    margin-right: 240px;
+    margin-left: 240px;
+    padding:20px 0px 30px 0px  ;
+    background-color: white;
+    border: ;    
+    box-shadow: 10px 10px 30px 13px rgba(0, 0, 0, 0.318);
+}
+#folha > h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #063D1E;
+    font-family:idroid, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    height: 24px;
+    font-style:;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to right,#84E1AE, #fff);
+    text-align: left;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    color: #1A5C37;
+}
+.p1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    text-indent: 25px;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #83E1AD;
+    box-shadow: 4px 4px 10px #00000045;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius:12px ;
+    border-bottom-right-radius:12px ;
+}
+#title {
+    padding-top:12px ;
+    padding-bottom:12px;
+    padding-left: 9px;
+    border-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    color: white;
+    background-color: #1A5C37;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.ts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 40px;
+
+}
+
+.img {
+    margin: auto;
+    display: block;
+}
+
+#video {
+    margin:0%;
+    background-color: #063D1E;
+    padding: 20px;
+}
+#video > iframe {
+    
+    margin: 10px 10px 10px 90px;
+    height: 575px;
+    width: 820px;
+
+}
+.links {
+    background-color:#84E1AE;
+    color: #1A5C37;
+    border-radius: 0%;
+    padding: 0%;
+    font-style: bold;
+
+}
+.links:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #1A5C37 ;
+}
