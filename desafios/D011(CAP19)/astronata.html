@@ -6,33 +6,36 @@
     <title>Espaço</title>
     <style>
         * {
-            padding: 0px;
             margin: 0px;
+            padding: 0px;
         }
-
         body {
+            position: relative;
             height: 100vh;
-           background-image: url(espaco.jpg);
-           background-size: cover;
-           background-repeat: no-repeat;
-           background-position: 100% 100%;
-           position: relative;
-
-
+            background-color: rgb(0, 0, 14);
+            background-image: url(espaco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
-        
+
         img {
-            background-color: antiquewhite;
-            width: 500px;
             height: 500px;
+            width: 500px;
             position: absolute;
+
             left: 50%;
             top: 50%;
+
+            transform: translate(-250px, -250px);
         }
+        
     </style>
 </head>
 <body>
+    
         <img src="astronauta.png" alt="astronauta">
+    
     
 </body>
 </html>
